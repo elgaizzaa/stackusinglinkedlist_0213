@@ -38,7 +38,10 @@ top = NULL;
     void pop(){
 if (isEmpty()) //step 1
 		{
-			cout << "Stack is empty."; //step 1a
+			cout << "Stack is empty."; //step 1a if (isEmpty()) { //step 1
+			
+		}
+        cout << "Popped value: " <<top->data << endl; //step2
 		}
     }
      
