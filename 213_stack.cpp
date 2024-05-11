@@ -56,8 +56,11 @@ if (top == NULL) {
             }
             cout << endl;
     }
+    
 
     }
-     
+     bool isEmpty() {
+        return top == NULL; //return true if the top pointer is NULL, indicationg an empty stack
+     }
 
 };
