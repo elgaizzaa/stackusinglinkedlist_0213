@@ -19,6 +19,8 @@ Node* top;
 public:
  stack()
     {
+top = NULL;
+  }
+   
 
-    }
 };
