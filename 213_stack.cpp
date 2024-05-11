@@ -24,7 +24,7 @@ top = NULL;
   
    int push(int value)
     {
-
+     Node* newNode = new Node(); //1. allocate memory for the new node
     }
 
 };
