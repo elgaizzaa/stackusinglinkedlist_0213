@@ -30,6 +30,7 @@ top = NULL;
       top = newNode; //4. update the top pointer to the new node
 
       cout << "Push value: " << value << endl;
+      return value;
     }
 
 };
