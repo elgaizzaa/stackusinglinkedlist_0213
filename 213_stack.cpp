@@ -42,6 +42,7 @@ if (isEmpty()) //step 1
 			
 		}
         cout << "Popped value: " <<top->data << endl; //step2
+        top = top->next; //step 3: update the top pointer to the next node
 		}
     }
      
