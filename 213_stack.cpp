@@ -45,8 +45,17 @@ if (isEmpty()) //step 1
         top = top->next; //step 3: update the top pointer to the next node
     }
     void peek(){
-
+if (top == NULL) {
+            cout << "List is empty." << endl;
+        }
+        else {
+            Node* current = top;
+            while (current != NULL) {
+                cout << current->data << " " << endl;
+                current = current->next;
+            }
     }
-    };
+    }
      
 
+};
